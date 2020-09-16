@@ -25,7 +25,7 @@ class | accelX | accelY | accelZ | gyroX | gyroY | gyroZ
 John29 | -0.329013 | 1.111466 | 9.943973 | 0.064446 | -0.0759 | -0.095295
 John29 | -0.329013 | 1.111466 | 9.943973 | 0.064446 | -0.0759 | -0.095295
 
-An example csv file uploaded here ==> ```examples/out_mehdi.csv```
+An example csv file uploaded here ==> ```examples/out_mehdi_test.csv```
 
 ## ```classifier.py```
 You can load & make prediction with trained neural network (tensorflow, ```.h5``` format). The input size of my neural network is (1,20,6)=(Batch, timesteps, features) in my implementation. So, in the line 1074th

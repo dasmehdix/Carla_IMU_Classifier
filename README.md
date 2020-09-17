@@ -1,7 +1,7 @@
 # Carla_IMU_Classifier
 IMU (Inertial Measurement Unit) sensor data reciever &amp; classifier for CARLA SIMULATOR. In both script, ```Town03``` map chosen. Random spawn at start disabled. You can enable with uncomment this line:
 
-```#spawn_point = random.choice(spawn_points) if spawn_points else carla.Transform()```
+```spawn_point = random.choice(spawn_points) if spawn_points else carla.Transform()```
 
 ## BE CAREFUL
 You have to build Carla simulator before use this repo. 

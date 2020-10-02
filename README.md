@@ -42,5 +42,5 @@ I reshaped data into designed neural network's input size. You can change this l
 - carla
 - numpy
 
-# NEWS -> IMU Data reciever Added!!! 
-Just copy "car_reciever.py" to the path of ```path_in_ur_system\AirSim\PythonClient\car``` and collect IMU DATA!
+# NEWS -> IMU Data reciever for AIRSIM Added!!! 
+Just copy ```"car_reciever.py"``` to the path of ```path_in_ur_system\AirSim\PythonClient\car``` and collect IMU DATA!

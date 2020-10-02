@@ -1,4 +1,4 @@
-# Carla_IMU_Classifier [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+# Carla_IMU_Classifier [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 IMU (Inertial Measurement Unit) sensor data reciever &amp; classifier for CARLA SIMULATOR. In both script, ```Town03``` map chosen. Random spawn at start disabled. You can enable with uncomment this line:
 
 ```spawn_point = random.choice(spawn_points) if spawn_points else carla.Transform()```
@@ -41,3 +41,6 @@ I reshaped data into designed neural network's input size. You can change this l
 - pygame
 - carla
 - numpy
+
+# NEWS -> IMU Data reciever Added!!! 
+Just copy "car_reciever.py" to the path of ```path_in_ur_system\AirSim\PythonClient\car``` and collect IMU DATA!
